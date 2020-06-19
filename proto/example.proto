@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto;
+option go_package = ".;example";
+option php_namespace = "core\\libs\\proto\\example";
+option php_metadata_namespace = "core\\libs\\proto\\ExampleGPBMetadata";
+
+
+service ExampleService {
+    rpc Ping(Empty) returns (BoolReply) {}
+}
+
+
+message BoolReply {
+    bool success = 1;
+}
+
+message Empty {}
