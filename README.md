@@ -20,3 +20,9 @@ https://grpc.io/docs/languages/php/quickstart/
 3. Update packages: `pacman -Su`
 4. Install grpc-plugins: `pacman -S mingw-w64-x86_64-grpc`
 5. Your plugins are here: *C:\msys64\mingw64\bin*
+
+
+## or
+
+1. You can just download http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-grpc-1.29.1-1-any.pkg.tar.zst
+2. Open it with zstd plugin http://facebook.github.io/zstd/
